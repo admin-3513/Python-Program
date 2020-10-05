@@ -1,4 +1,5 @@
-def formal(ns):
+#decorator-2
+3def formal(ns):
     first,last,age,sex = ns
     return ('Mr. ' if sex == 'M' else 'Ms. ') + first + ' ' + last
     
