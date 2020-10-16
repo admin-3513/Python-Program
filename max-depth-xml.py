@@ -17,3 +17,6 @@ if __name__ == '__main__':
     tree = etree.ElementTree(etree.fromstring(xml))
     depth(tree.getroot(), -1)
     print maxdepth
+    
+    
+    
