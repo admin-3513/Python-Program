@@ -14,3 +14,7 @@ def nsort(ns):
 n = int(raw_input())
 for x in nsort([raw_input().split() for x in range(n)]):
     print x
+
+    
+    
+    
