@@ -7,4 +7,4 @@ for i in range(int(raw_input())):
         final_match = re.search(r'(\d)\1{3,}',processed_string)
         print 'Invalid' if final_match else 'Valid'
     else:
-        print 'Invalid'
+        print 'Invalid Card'
