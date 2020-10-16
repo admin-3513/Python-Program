@@ -1,4 +1,4 @@
-import re
+import re 
 for i in range(int(raw_input())):
     S = raw_input().strip()
     pre_match = re.search(r'^[456]\d{3}(-?)\d{4}\1\d{4}\1\d{4}$',S)
